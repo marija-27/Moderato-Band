@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music | Moderato Band</title>
+
+<meta name="description" content="Listen to the music of the Moderato Band and check out their releases.">
+<meta name="author" content="Moderato Band">
+<meta name="keywords" content="Moderato Band, music, concerts, band, live music">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.music-container{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.music-card{
+position:relative;
+width:320px;
+border:2px solid #d4a24c;
+border-radius:12px;
+overflow:hidden;
+text-decoration:none;
+}
+
+.music-card img{
+width:100%;
+display:block;
+}
+
+.music-overlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.6);
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:#d4a24c;
+transition:0.3s;
+text-align:center;
+}
+
+.play{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.music-card:hover .music-overlay{
+background:rgba(0,0,0,0.3);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header class="site-header">
+<div class="logo">Moderato Band</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="bandi.html">Band</a>
+<a href="keikat.html">Concerts</a>
+<a href="musiikki.html" aria-current="page">Music</a>
+<a href="media.html">Media</a>
+<a href="yhteystiedot.html">Contact</a>
+</nav>
+</header>
+
+<section class="content">
+
+<h1>Music</h1>
+<p>Watch and listen to Moderato Band performances.</p>
+
+<div class="music-container">
+
+<a href="https://www.youtube.com/watch?v=-PwvXrWvUt8" target="_blank" class="music-card">
+<img src="https://img.youtube.com/vi/-PwvXrWvUt8/maxresdefault.jpg" alt="Sluga">
+<div class="music-overlay">
+<div class="play">▶</div>
+<h2>Sluga</h2>
+<p>New Song</p>
+</div>
+</a>
+
+<a href="https://www.youtube.com/watch?v=opsLLQItjR8" target="_blank" class="music-card">
+<img src="https://img.youtube.com/vi/opsLLQItjR8/maxresdefault.jpg" alt="Svadbarski Pesni">
+<div class="music-overlay">
+<div class="play">▶</div>
+<h2>Splet Od Svadbarski Pesni</h2>
+<p>Wedding Music</p>
+</div>
+</a>
+
+<a href="https://www.youtube.com/watch?v=KeJRRbzpZs8" target="_blank" class="music-card">
+<img src="https://img.youtube.com/vi/KeJRRbzpZs8/maxresdefault.jpg" alt="Moderato Band">
+<div class="music-overlay">
+<div class="play">▶</div>
+<h2>Moderato Band So Gosti Od Estradata</h2>
+<p>Special Performance</p>
+</div>
+</a>
+
+</div>
+
+</section>
+
+<footer>
+<p>© Moderato Band</p>
+</footer>
+
+</body>
+</html>
